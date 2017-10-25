@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl"?>
+
+<KPOKS xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpoks/4.0.1"
+       xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+       xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+       xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+       xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+       xmlns:flat="urn://x-artefacts-rosreestr-ru/commons/complex-types/assignation-flat/1.0.1"
+>
+    <Realty>
+        <Flat CadastralNumber="27:23:0051205:841" State="01"
+              DateCreated="2012-06-28"
+        >
+            <CadastralBlock>27:23:0051205</CadastralBlock>
+            <ObjectType>002001003000</ObjectType>
+            <ParentCadastralNumbers>
+                <CadastralNumberOKS>27:23:0051205:78</CadastralNumberOKS>
+            </ParentCadastralNumbers>
+            <OldNumbers>
+                <num:OldNumber Type="01" Number="15960"/>
+            </OldNumbers>
+            <Assignation>
+                <flat:AssignationCode>206002000000</flat:AssignationCode>
+                <flat:AssignationType>205001000000</flat:AssignationType>
+            </Assignation>
+            <Area>43</Area>
+            <Address>
+                <adrs:OKATO>08401365000</adrs:OKATO>
+                <adrs:KLADR>27000001000040800</adrs:KLADR>
+                <adrs:Region>27</adrs:Region>
+                <adrs:City Name="Хабаровск" Type="г"/>
+                <adrs:Street Name="Краснореченский" Type="пер"/>
+                <adrs:Level1 Type="д" Value="8"/>
+                <adrs:Apartment Type="кв" Value="44"/>
+            </Address>
+            <PositionInObject>
+                <Levels>
+                    <Level Number="05" Type="01">
+                        <Position NumberOnPlan="44">
+                        </Position>
+                    </Level>
+                </Levels>
+            </PositionInObject>
+            <CadastralCost Value="1512172.83" Unit="383"/>
+            <Rights>
+                <Right>
+                    <Name>Общая долевая собственность</Name>
+                    <Type>001002000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Person>
+                                <FamilyName>Аистова</FamilyName>
+                                <FirstName>Зинаида</FirstName>
+                                <Patronymic>Николаевна</Patronymic>
+                            </Person>
+                        </Owner>
+                    </Owners>
+                    <Share Numerator="1" Denominator="2"/>
+                    <Registration>
+                        <RegNumber>27-01/11-57/2004-879</RegNumber>
+                        <RegDate>2004-10-06</RegDate>
+                    </Registration>
+                </Right>
+                <Right>
+                    <Name>Общая долевая собственность</Name>
+                    <Type>001002000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Person>
+                                <FamilyName>Глушицкая</FamilyName>
+                                <FirstName>Ольга</FirstName>
+                                <Patronymic>Викторовна</Patronymic>
+                            </Person>
+                        </Owner>
+                    </Owners>
+                    <Share Numerator="1" Denominator="2"/>
+                    <Registration>
+                        <RegNumber>27-01/11-57/2004-879</RegNumber>
+                        <RegDate>2004-10-06</RegDate>
+                    </Registration>
+                </Right>
+            </Rights>
+        </Flat>
+    </Realty>
+    <CertificationDoc>
+        <cer:Organization>ФГИС ЕГРН</cer:Organization>
+        <cer:Date>2017-09-27</cer:Date>
+        <cer:Number>99/2017/29435619</cer:Number>
+    </CertificationDoc>
+    <CoordSystems>
+        <spa:CoordSystem Name="МСК-27 зона 3" CsId="ID0"/>
+    </CoordSystems>
+    <eDocument CodeType="112" Version="07" Scope="GKN">
+        <Sender Kod="00.0.4.195"
+                Name="ФГИС ЕГРН"
+                Region="99"
+                Date_Upload="2017-09-27"
+                Appointment="Государственный регистратор"
+        />
+        <Recipient Kod="00.0.4.111" Name="Колонтаева Наталья Владимировна"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="0"
+                         ExtractTypeCode="012000"
+                         ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+                         ExtractNumber="99/2017/29435619"
+                         ExtractDate="27.09.2017"
+                         RequeryNumber="80-15995866"
+                         RequeryDate="27.09.2017"
+                         ExtractCount="1"
+                         NoticeCount="0"
+                         RefuseCount="0"
+                         Registrator="ФГИС ЕГРН">
+            <ReceivName>Колонтаева Наталья Владимировна</ReceivName>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>0</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+                <DeptName>ФГИС ЕГРН</DeptName>
+                <ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости
+                </ExtractTitle>
+                <Content>На основании запроса от 27.09.2017 г., поступившего на рассмотрение 27.09.2017 г., сообщаем,
+                    что согласно записям Единого государственного реестра недвижимости:
+                </Content>
+            </HeadContent>
+            <ExtractObject>
+                <ObjectRight>
+                    <Right RightNumber="1">
+                        <Owner>
+                            <ID_Subject>128988325127</ID_Subject>
+                            <Person>
+                                <Code_SP>007003000000</Code_SP>
+                                <Content>Глушицкая Ольга Викторовна</Content>
+                                <FIO>
+                                    <Surname>Глушицкая</Surname>
+                                    <First>Ольга</First>
+                                    <Patronymic>Викторовна</Patronymic>
+                                </FIO>
+                            </Person>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>128988324827</ID_Record>
+                            <RegNumber>27-01/11-57/2004-879</RegNumber>
+                            <Type>001002000000</Type>
+                            <Name>Долевая собственность, № 27-01/11-57/2004-879 от 06.10.2004, 1/2</Name>
+                            <RegDate>06.10.2004</RegDate>
+                            <ShareText>1/2</ShareText>
+                        </Registration>
+                        <NoEncumbrance>не зарегистрировано</NoEncumbrance>
+                    </Right>
+                    <Right RightNumber="2">
+                        <Owner>
+                            <ID_Subject>128988324427</ID_Subject>
+                            <Person>
+                                <Code_SP>007003000000</Code_SP>
+                                <Content>Аистова Зинаида Николаевна</Content>
+                                <FIO>
+                                    <Surname>Аистова</Surname>
+                                    <First>Зинаида</First>
+                                    <Patronymic>Николаевна</Patronymic>
+                                </FIO>
+                            </Person>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>128988324127</ID_Record>
+                            <RegNumber>27-01/11-57/2004-879</RegNumber>
+                            <Type>001002000000</Type>
+                            <Name>Долевая собственность, № 27-01/11-57/2004-879 от 06.10.2004, 1/2</Name>
+                            <RegDate>06.10.2004</RegDate>
+                            <ShareText>1/2</ShareText>
+                        </Registration>
+                        <NoEncumbrance>не зарегистрировано</NoEncumbrance>
+                    </Right>
+                    <NoShareHolding>не зарегистрировано</NoShareHolding>
+                </ObjectRight>
+                <RightAssert>данные отсутствуют</RightAssert>
+                <RightClaim>данные отсутствуют</RightClaim>
+                <RightAgainst>данные отсутствуют</RightAgainst>
+                <RightSteal>данные отсутствуют</RightSteal>
+                <WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+                <InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+                <InabilityRegZU></InabilityRegZU>
+            </ExtractObject>
+            <InfoENK/>
+            <InfoPIK/>
+            <FootContent>
+                <Recipient>Колонтаева Наталья Владимировна</Recipient>
+                <ExtractDate>27.09.2017</ExtractDate>
+                <Content></Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</KPOKS>

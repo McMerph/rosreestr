@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl"?>
+
+<KPOKS xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpoks/4.0.1"
+       xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+       xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+       xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+       xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+       xmlns:flat="urn://x-artefacts-rosreestr-ru/commons/complex-types/assignation-flat/1.0.1"
+>
+    <Realty>
+        <Flat CadastralNumber="27:23:0051205:745" State="01"
+              DateCreated="2012-06-28"
+        >
+            <CadastralBlock>27:23:0051205</CadastralBlock>
+            <ObjectType>002001003000</ObjectType>
+            <ParentCadastralNumbers>
+                <CadastralNumberOKS>27:23:0051205:76</CadastralNumberOKS>
+            </ParentCadastralNumbers>
+            <OldNumbers>
+                <num:OldNumber Type="01" Number="15959"/>
+            </OldNumbers>
+            <Assignation>
+                <flat:AssignationCode>206002000000</flat:AssignationCode>
+                <flat:AssignationType>205001000000</flat:AssignationType>
+            </Assignation>
+            <Area>62.2</Area>
+            <Address>
+                <adrs:OKATO>08401365000</adrs:OKATO>
+                <adrs:KLADR>27000001000040800</adrs:KLADR>
+                <adrs:Region>27</adrs:Region>
+                <adrs:City Name="Хабаровск" Type="г"/>
+                <adrs:Street Name="Краснореченский" Type="пер"/>
+                <adrs:Level1 Type="д" Value="6"/>
+                <adrs:Apartment Type="кв" Value="25"/>
+            </Address>
+            <PositionInObject>
+                <Levels>
+                    <Level Number="04" Type="01">
+                        <Position NumberOnPlan="25">
+                        </Position>
+                    </Level>
+                </Levels>
+            </PositionInObject>
+            <CadastralCost Value="2187375.58" Unit="383"/>
+            <Rights>
+                <Right>
+                    <Name>Общая долевая собственность</Name>
+                    <Type>001002000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Person>
+                                <FamilyName>Рябцев</FamilyName>
+                                <FirstName>Виктор</FirstName>
+                                <Patronymic>Николаевич</Patronymic>
+                            </Person>
+                        </Owner>
+                    </Owners>
+                    <Share Numerator="1" Denominator="2"/>
+                    <Registration>
+                        <RegNumber>27-27-01/159/2010-052</RegNumber>
+                        <RegDate>2010-12-13</RegDate>
+                    </Registration>
+                </Right>
+            </Rights>
+            <Encumbrances>
+                <Encumbrance>
+                    <Type>022099000000</Type>
+                    <Registration>
+                        <RegNumber>27-27-01/016/2014-915</RegNumber>
+                        <RegDate>2014-11-21</RegDate>
+                    </Registration>
+                </Encumbrance>
+            </Encumbrances>
+        </Flat>
+    </Realty>
+    <CertificationDoc>
+        <cer:Organization>ФГИС ЕГРН</cer:Organization>
+        <cer:Date>2017-09-27</cer:Date>
+        <cer:Number>99/2017/29370714</cer:Number>
+    </CertificationDoc>
+    <CoordSystems>
+        <spa:CoordSystem Name="МСК-27 зона 3" CsId="ID0"/>
+    </CoordSystems>
+    <eDocument CodeType="112" Version="07" Scope="GKN">
+        <Sender Kod="00.0.4.195"
+                Name="ФГИС ЕГРН"
+                Region="99"
+                Date_Upload="2017-09-27"
+                Appointment="Государственный регистратор"
+        />
+        <Recipient Kod="00.0.4.111" Name="Колонтаева Наталья Владимировна"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="0"
+                         ExtractTypeCode="012000"
+                         ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+                         ExtractNumber="99/2017/29370714"
+                         ExtractDate="27.09.2017"
+                         RequeryNumber="80-15937020"
+                         RequeryDate="27.09.2017"
+                         ExtractCount="1"
+                         NoticeCount="0"
+                         RefuseCount="0"
+                         Registrator="ФГИС ЕГРН">
+            <ReceivName>Колонтаева Наталья Владимировна</ReceivName>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>0</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+                <DeptName>ФГИС ЕГРН</DeptName>
+                <ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости
+                </ExtractTitle>
+                <Content>На основании запроса от 27.09.2017 г., поступившего на рассмотрение 27.09.2017 г., сообщаем,
+                    что согласно записям Единого государственного реестра недвижимости:
+                </Content>
+            </HeadContent>
+            <ExtractObject>
+                <ObjectRight>
+                    <Right RightNumber="1">
+                        <Owner>
+                            <ID_Subject>16667260927</ID_Subject>
+                            <Person>
+                                <Code_SP>007003000000</Code_SP>
+                                <Content>Рябцев Виктор Николаевич</Content>
+                                <FIO>
+                                    <Surname>Рябцев</Surname>
+                                    <First>Виктор</First>
+                                    <Patronymic>Николаевич</Patronymic>
+                                </FIO>
+                            </Person>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>129348541627</ID_Record>
+                            <RegNumber>27-27-01/159/2010-052</RegNumber>
+                            <Type>001002000000</Type>
+                            <Name>Долевая собственность, № 27-27-01/159/2010-052 от 13.12.2010, 1/2</Name>
+                            <RegDate>13.12.2010</RegDate>
+                            <ShareText>1/2</ShareText>
+                        </Registration>
+                        <NoEncumbrance>не зарегистрировано</NoEncumbrance>
+                    </Right>
+                    <Right RightNumber="2">
+                        <NoOwner>данные о правообладателе отсутствуют</NoOwner>
+                        <NoRegistration>не зарегистрировано</NoRegistration>
+                        <Encumbrance>
+                            <ID_Record>129348542227</ID_Record>
+                            <RegNumber>27-27-01/016/2014-915</RegNumber>
+                            <Type>022099000000</Type>
+                            <Name>Прочие ограничения (обременения)</Name>
+                            <ShareText>Запретить Управлению Федеральной службы государственной регистрации, кадастра и
+                                картографии по Хабаровскому краю производить любые регистрационные действия
+                            </ShareText>
+                            <RegDate>21.11.2014</RegDate>
+                            <DocFound>
+                                <ID_Document>129348542427</ID_Document>
+                                <Content>Постановление судебного пристава-исполнителя о запрете регистрационных действий
+                                    в отношении объектов недвижимого имущества oт 13.11.2014, выдавший орган: Отдел
+                                    судебных приставов по Индустриальному району г. Хабаровска (судебный
+                                    пристав-исполнитель Плюснина Е.А.)
+                                </Content>
+                                <Type_Document>010007000000</Type_Document>
+                                <Name>Постановление судебного пристава-исполнителя о запрете регистрационных действий в
+                                    отношении объектов недвижимого имущества
+                                </Name>
+                                <Number>б/н</Number>
+                                <Date>13.11.2014</Date>
+                                <IssueOrgan>Отдел судебных приставов по Индустриальному району г. Хабаровска (судебный
+                                    пристав-исполнитель Плюснина Е.А.)
+                                </IssueOrgan>
+                            </DocFound>
+                        </Encumbrance>
+                    </Right>
+                    <NoShareHolding>не зарегистрировано</NoShareHolding>
+                </ObjectRight>
+                <RightAssert>данные отсутствуют</RightAssert>
+                <RightClaim>данные отсутствуют</RightClaim>
+                <RightAgainst>данные отсутствуют</RightAgainst>
+                <RightSteal>данные отсутствуют</RightSteal>
+                <WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+                <InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+                <InabilityRegZU></InabilityRegZU>
+            </ExtractObject>
+            <InfoENK/>
+            <InfoPIK/>
+            <FootContent>
+                <Recipient>Колонтаева Наталья Владимировна</Recipient>
+                <ExtractDate>27.09.2017</ExtractDate>
+                <Content></Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</KPOKS>

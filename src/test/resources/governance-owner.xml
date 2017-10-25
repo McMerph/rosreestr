@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl"?>
+
+<KPOKS xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpoks/4.0.1"
+       xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+       xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+       xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+       xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+       xmlns:flat="urn://x-artefacts-rosreestr-ru/commons/complex-types/assignation-flat/1.0.1"
+>
+    <Realty>
+        <Flat CadastralNumber="27:23:0050732:965" State="01"
+              DateCreated="2013-12-23"
+        >
+            <CadastralBlock>27:23:0050732</CadastralBlock>
+            <ObjectType>002001003000</ObjectType>
+            <ParentCadastralNumbers>
+                <CadastralNumberOKS>27:23:0050732:906</CadastralNumberOKS>
+            </ParentCadastralNumbers>
+            <OldNumbers>
+                <num:OldNumber Type="02" Number="27-27-01/004/2009-346"/>
+            </OldNumbers>
+            <Assignation>
+                <flat:AssignationCode>206002000000</flat:AssignationCode>
+                <flat:AssignationType>205001000000</flat:AssignationType>
+            </Assignation>
+            <Area>83.1</Area>
+            <Address>
+                <adrs:OKATO>08401365000</adrs:OKATO>
+                <adrs:KLADR>27000001000040700</adrs:KLADR>
+                <adrs:Region>27</adrs:Region>
+                <adrs:City Name="Хабаровск" Type="г"/>
+                <adrs:UrbanDistrict Name="Индустриальный" Type="р-н"/>
+                <adrs:Street Name="Краснореченская" Type="ул"/>
+                <adrs:Level1 Type="д" Value="13"/>
+                <adrs:Apartment Type="кв" Value="15"/>
+            </Address>
+            <PositionInObject>
+                <Levels>
+                    <Level Number="03" Type="01">
+                        <Position NumberOnPlan="">
+                        </Position>
+                    </Level>
+                </Levels>
+            </PositionInObject>
+            <CadastralCost Value="3670776.3" Unit="383"/>
+            <Rights>
+                <Right>
+                    <Name>Общая долевая собственность</Name>
+                    <Type>001002000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Person>
+                                <FamilyName>Мартинсон</FamilyName>
+                                <FirstName>Даяна</FirstName>
+                                <Patronymic>Эдуардовна</Patronymic>
+                            </Person>
+                        </Owner>
+                    </Owners>
+                    <Share Numerator="36" Denominator="100"/>
+                    <Registration>
+                        <RegNumber>27-27-01/070/2009-626</RegNumber>
+                        <RegDate>2009-07-30</RegDate>
+                    </Registration>
+                </Right>
+                <Right>
+                    <Name>Общая долевая собственность</Name>
+                    <Type>001002000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Governance>
+                                <Name>Городской округ &quot;Город Хабаровск&quot;</Name>
+                            </Governance>
+                        </Owner>
+                    </Owners>
+                    <Share Numerator="64" Denominator="100"/>
+                    <Registration>
+                        <RegNumber>27-27-01/004/2009-346</RegNumber>
+                        <RegDate>2009-03-11</RegDate>
+                    </Registration>
+                </Right>
+            </Rights>
+        </Flat>
+    </Realty>
+    <CertificationDoc>
+        <cer:Organization>ФГИС ЕГРН</cer:Organization>
+        <cer:Date>2017-09-25</cer:Date>
+        <cer:Number>99/2017/29146398</cer:Number>
+    </CertificationDoc>
+    <CoordSystems>
+        <spa:CoordSystem Name="МСК-27 зона 3" CsId="ID0"/>
+    </CoordSystems>
+    <eDocument CodeType="112" Version="07" Scope="GKN">
+        <Sender Kod="00.0.4.195"
+                Name="ФГИС ЕГРН"
+                Region="99"
+                Date_Upload="2017-09-25"
+                Appointment="Государственный регистратор"
+        />
+        <Recipient Kod="00.0.4.111" Name="Колонтаева Наталья Владимировна"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="0"
+                         ExtractTypeCode="012000"
+                         ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+                         ExtractNumber="99/2017/29146398"
+                         ExtractDate="25.09.2017"
+                         RequeryNumber="80-15729135"
+                         RequeryDate="25.09.2017"
+                         ExtractCount="1"
+                         NoticeCount="0"
+                         RefuseCount="0"
+                         Registrator="ФГИС ЕГРН">
+            <ReceivName>Колонтаева Наталья Владимировна</ReceivName>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>0</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+                <DeptName>ФГИС ЕГРН</DeptName>
+                <ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости
+                </ExtractTitle>
+                <Content>На основании запроса от 25.09.2017 г., поступившего на рассмотрение 25.09.2017 г., сообщаем,
+                    что согласно записям Единого государственного реестра недвижимости:
+                </Content>
+            </HeadContent>
+            <ExtractObject>
+                <ObjectRight>
+                    <Right RightNumber="1">
+                        <Owner>
+                            <ID_Subject>101220375227</ID_Subject>
+                            <Governance>
+                                <Code_SP>007001000000</Code_SP>
+                                <Content>Городской округ &quot;Город Хабаровск&quot;</Content>
+                                <Name>Городской округ &quot;Город Хабаровск&quot;</Name>
+                                <OKATO_Code>08255000000</OKATO_Code>
+                                <Country>Российская Федерация</Country>
+                                <Address>Хабаровский край, г.Хабаровск</Address>
+                            </Governance>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>137086576027</ID_Record>
+                            <RegNumber>27-27-01/004/2009-346</RegNumber>
+                            <Type>001002000000</Type>
+                            <Name>Долевая собственность, № 27-27-01/004/2009-346 от 11.03.2009, 64/100</Name>
+                            <RegDate>11.03.2009</RegDate>
+                            <ShareText>64/100</ShareText>
+                        </Registration>
+                        <NoEncumbrance>не зарегистрировано</NoEncumbrance>
+                    </Right>
+                    <Right RightNumber="2">
+                        <Owner>
+                            <ID_Subject>21668358727</ID_Subject>
+                            <Person>
+                                <Code_SP>007003000000</Code_SP>
+                                <Content>Мартинсон Даяна Эдуардовна</Content>
+                                <FIO>
+                                    <Surname>Мартинсон</Surname>
+                                    <First>Даяна</First>
+                                    <Patronymic>Эдуардовна</Patronymic>
+                                </FIO>
+                            </Person>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>137086573727</ID_Record>
+                            <RegNumber>27-27-01/070/2009-626</RegNumber>
+                            <Type>001002000000</Type>
+                            <Name>Долевая собственность, № 27-27-01/070/2009-626 от 30.07.2009, 36/100</Name>
+                            <RegDate>30.07.2009</RegDate>
+                            <ShareText>36/100</ShareText>
+                        </Registration>
+                        <NoEncumbrance>не зарегистрировано</NoEncumbrance>
+                    </Right>
+                    <NoShareHolding>не зарегистрировано</NoShareHolding>
+                </ObjectRight>
+                <RightAssert>данные отсутствуют</RightAssert>
+                <RightClaim>данные отсутствуют</RightClaim>
+                <RightAgainst>данные отсутствуют</RightAgainst>
+                <RightSteal>данные отсутствуют</RightSteal>
+                <WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+                <InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+                <InabilityRegZU></InabilityRegZU>
+            </ExtractObject>
+            <InfoENK/>
+            <InfoPIK/>
+            <FootContent>
+                <Recipient>Колонтаева Наталья Владимировна</Recipient>
+                <ExtractDate>25.09.2017</ExtractDate>
+                <Content></Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</KPOKS>

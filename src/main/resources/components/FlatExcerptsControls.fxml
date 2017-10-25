@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="ru.mcmerphy.rosreestr.controllers.layout.FlatExcerptsControlsController"
+      xmlns:fx="http://javafx.com/fxml">
+    <Button text="" onAction="#handleAddFiles">
+        <tooltip>
+            <Tooltip text="Добавить файл(ы)"/>
+        </tooltip>
+    </Button>
+    <Button text="" onAction="#handleAddDirectory">
+        <tooltip>
+            <Tooltip text="Добавить папку"/>
+        </tooltip>
+    </Button>
+    <Button text="" onAction="#clear">
+        <tooltip>
+            <Tooltip text="Очистить"/>
+        </tooltip>
+    </Button>
+    <Button text="" onAction="#toDocx">
+        <tooltip>
+            <Tooltip text="Преобразовать в docx (W)"/>
+        </tooltip>
+    </Button>
+</VBox>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/Common.xsl"?>
+
+<KVZU xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1"
+      xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+      xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+      xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+>
+    <Parcels>
+        <Parcel CadastralNumber="27:23:0050722:13" State="07"
+                DateCreated="2004-10-18"
+                DateRemoved="2011-08-05"
+        >
+            <CadastralBlock>27:23:0050722</CadastralBlock>
+            <Name>01</Name>
+            <Area>
+                <Area>7090</Area>
+                <Unit>055</Unit>
+            </Area>
+            <Location>
+                <Address>
+                    <adrs:OKATO>08401365000</adrs:OKATO>
+                    <adrs:KLADR>27000001000084900</adrs:KLADR>
+                    <adrs:Region>27</adrs:Region>
+                    <adrs:City Name="Хабаровск" Type="г"/>
+                    <adrs:Street Name="Суворова" Type="ул"/>
+                    <adrs:Level1 Type="д" Value="10"/>
+                    <adrs:Note>край Хабаровский, г. Хабаровск, ул. Суворова, дом 10</adrs:Note>
+                </Address>
+            </Location>
+            <Category>003002000000</Category>
+            <Utilization ByDoc="Под жилую застройку Многоэтажную"/>
+            <Rights>
+                <Right>
+                    <Name>Общая долевая собственность</Name>
+                    <Type>001002000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Organization>
+                                <Name>Собственники помещений в многоквартирном доме</Name>
+                            </Organization>
+                        </Owner>
+                    </Owners>
+                    <ShareText>пропорционально доле в общей долевой собственности</ShareText>
+                    <Registration>
+                        <RegNumber>п.2 ст.16</RegNumber>
+                        <RegDate>2005-03-01</RegDate>
+                    </Registration>
+                </Right>
+            </Rights>
+            <EntitySpatial EntSys="ID0">
+                <spa:SpatialElement>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="1">
+                        <spa:Ordinate X="447371.87" Y="3179926.58" OrdNmb="1" DeltaGeopoint="0.2"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="2">
+                        <spa:Ordinate X="447352.98" Y="3179991.87" OrdNmb="1" DeltaGeopoint="0.2"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="3">
+                        <spa:Ordinate X="447349.11" Y="3180003.91" OrdNmb="1" DeltaGeopoint="0.2"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="4">
+                        <spa:Ordinate X="447413.14" Y="3180023.11" OrdNmb="1" DeltaGeopoint="0.2"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="5">
+                        <spa:Ordinate X="447461.51" Y="3179943.28" OrdNmb="1" DeltaGeopoint="0.2"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="6">
+                        <spa:Ordinate X="447454.31" Y="3179941.17" OrdNmb="1" DeltaGeopoint="0.2"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="7">
+                        <spa:Ordinate X="447408.11" Y="3179927.43" OrdNmb="1" DeltaGeopoint="0.2"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="8">
+                        <spa:Ordinate X="447374.62" Y="3179917.54" OrdNmb="1" DeltaGeopoint="0.2"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="1">
+                        <spa:Ordinate X="447371.87" Y="3179926.58" OrdNmb="1" DeltaGeopoint="0.2"/>
+                    </spa:SpelementUnit>
+                </spa:SpatialElement>
+                <spa:Borders>
+                    <spa:Border Spatial="1" Point1="97" Point2="98">
+                        <spa:Edge>
+                        </spa:Edge>
+                    </spa:Border>
+                    <spa:Border Spatial="1" Point1="99" Point2="100">
+                        <spa:Edge>
+                        </spa:Edge>
+                    </spa:Border>
+                    <spa:Border Spatial="1" Point1="98" Point2="100">
+                        <spa:Edge>
+                        </spa:Edge>
+                    </spa:Border>
+                    <spa:Border Spatial="1" Point1="97" Point2="101">
+                        <spa:Edge>
+                        </spa:Edge>
+                    </spa:Border>
+                    <spa:Border Spatial="1" Point1="101" Point2="102">
+                        <spa:Edge>
+                        </spa:Edge>
+                    </spa:Border>
+                    <spa:Border Spatial="1" Point1="102" Point2="103">
+                        <spa:Edge>
+                        </spa:Edge>
+                    </spa:Border>
+                    <spa:Border Spatial="1" Point1="103" Point2="104">
+                        <spa:Edge>
+                        </spa:Edge>
+                    </spa:Border>
+                    <spa:Border Spatial="1" Point1="99" Point2="104">
+                        <spa:Edge>
+                        </spa:Edge>
+                    </spa:Border>
+                </spa:Borders>
+            </EntitySpatial>
+            <CadastralCost Value="16653749.7" Unit="383"/>
+            <SpecialNote>Граница земельного участка не установлена в соответствии с требованиями земельного
+                законодательства.
+            </SpecialNote>
+            <AllOffspringParcel>
+                <CadastralNumber>27:23:0050722:20</CadastralNumber>
+                <CadastralNumber>27:23:0050722:21</CadastralNumber>
+            </AllOffspringParcel>
+        </Parcel>
+    </Parcels>
+    <CertificationDoc>
+        <cer:Organization>ФГИС ЕГРН</cer:Organization>
+        <cer:Date>2017-09-25</cer:Date>
+        <cer:Number>99/2017/29065479</cer:Number>
+    </CertificationDoc>
+    <CoordSystems>
+        <spa:CoordSystem Name="МСК-27 зона 3" CsId="ID0"/>
+    </CoordSystems>
+    <eDocument CodeType="112" Version="07" Scope="GKN">
+        <Sender Kod="00.0.4.195"
+                Name="ФГИС ЕГРН"
+                Region="99"
+                Date_Upload="2017-09-25"
+                Appointment="Государственный регистратор"
+        />
+        <Recipient Kod="00.0.4.111" Name="Колонтаева Наталья Владимировна"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="0"
+                         ExtractTypeCode="012000"
+                         ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+                         ExtractNumber="99/2017/29065479"
+                         ExtractDate="25.09.2017"
+                         RequeryNumber="80-15667775"
+                         RequeryDate="25.09.2017"
+                         ExtractCount="0"
+                         NoticeCount="0"
+                         RefuseCount="0"
+                         Registrator="ФГИС ЕГРН">
+            <ReceivName>Колонтаева Наталья Владимировна</ReceivName>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>0</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+                <DeptName>ФГИС ЕГРН</DeptName>
+                <ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости
+                </ExtractTitle>
+                <Content>На основании запроса от 25.09.2017 г., поступившего на рассмотрение 25.09.2017 г., сообщаем,
+                    что согласно записям Единого государственного реестра недвижимости:
+                </Content>
+            </HeadContent>
+            <InfoENK/>
+            <InfoPIK/>
+            <FootContent>
+                <Recipient>Колонтаева Наталья Владимировна</Recipient>
+                <ExtractDate>25.09.2017</ExtractDate>
+                <Content></Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</KVZU>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:controller="ru.mcmerphy.rosreestr.controllers.ApplicationController"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="root.css">
+    <left>
+        <fx:include source="components/Controls.fxml" fx:id="controls"/>
+    </left>
+    <center>
+        <fx:include source="components/FlatExcerpts.fxml" fx:id="flatExcerpts"/>
+    </center>
+</BorderPane>

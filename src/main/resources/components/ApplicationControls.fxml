@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="ru.mcmerphy.rosreestr.controllers.layout.ApplicationControlsController"
+      xmlns:fx="http://javafx.com/fxml">
+    <Button text="" onAction="#handleCreate">
+        <tooltip>
+            <Tooltip text="Создать (Ctrl + N)"/>
+        </tooltip>
+    </Button>
+    <Button text="" onAction="#handleOpen">
+        <tooltip>
+            <Tooltip text="Открыть...  (Ctrl + O)"/>
+        </tooltip>
+    </Button>
+    <Button text="" onAction="#handleSave">
+        <tooltip>
+            <Tooltip text="Сохранить  (Ctrl + S)"/>
+        </tooltip>
+    </Button>
+    <Button text="" onAction="#handleSaveAs">
+        <tooltip>
+            <Tooltip text="Сохранить как..."/>
+        </tooltip>
+    </Button>
+</VBox>

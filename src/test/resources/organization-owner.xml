@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl"?>
+
+<KPOKS xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpoks/4.0.1"
+       xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+       xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+       xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+       xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+       xmlns:flat="urn://x-artefacts-rosreestr-ru/commons/complex-types/assignation-flat/1.0.1"
+>
+    <Realty>
+        <Flat CadastralNumber="27:23:0051202:126" State="01"
+              DateCreated="2012-06-28"
+        >
+            <CadastralBlock>27:23:0050732</CadastralBlock>
+            <ObjectType>002001003000</ObjectType>
+            <ParentCadastralNumbers>
+                <CadastralNumberOKS>27:23:0051202:62</CadastralNumberOKS>
+            </ParentCadastralNumbers>
+            <OldNumbers>
+                <num:OldNumber Type="01" Number="12154"/>
+            </OldNumbers>
+            <Assignation>
+                <flat:AssignationCode>206001000000</flat:AssignationCode>
+            </Assignation>
+            <Area>718</Area>
+            <Address>
+                <adrs:OKATO>08401365000</adrs:OKATO>
+                <adrs:KLADR>27000001000040700</adrs:KLADR>
+                <adrs:Region>27</adrs:Region>
+                <adrs:City Name="Хабаровск" Type="г"/>
+                <adrs:UrbanDistrict Name="Индустриальный" Type="р-н"/>
+                <adrs:Street Name="Краснореченская" Type="ул"/>
+                <adrs:Level1 Type="д" Value="9"/>
+                <adrs:Apartment Type="пом" Value="I (1-31)"/>
+            </Address>
+            <PositionInObject>
+                <Levels>
+                    <Level Number="01" Type="01">
+                        <Position NumberOnPlan="I (1-31)">
+                        </Position>
+                    </Level>
+                </Levels>
+            </PositionInObject>
+            <CadastralCost Value="9896840.2" Unit="383"/>
+            <Rights>
+                <Right>
+                    <Name>Собственность</Name>
+                    <Type>001001000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Organization>
+                                <Name>Общество с ограниченной ответственностью &quot;Универсам&quot;</Name>
+                            </Organization>
+                        </Owner>
+                    </Owners>
+                    <Registration>
+                        <RegNumber>27-27/001-27/074/204/2015-7665/2</RegNumber>
+                        <RegDate>2015-12-16</RegDate>
+                    </Registration>
+                </Right>
+            </Rights>
+            <Encumbrances>
+                <Encumbrance>
+                    <Type>022006000000</Type>
+                    <OwnersRestrictionInFavorem>
+                        <OwnerRestrictionInFavorem>
+                            <Organization>
+                                <Name>Общество с ограниченной ответственностью &quot;ЛААН&quot;</Name>
+                            </Organization>
+                        </OwnerRestrictionInFavorem>
+                    </OwnersRestrictionInFavorem>
+                    <Registration>
+                        <RegNumber>27-27/001-27/002/204/2016-1293/2</RegNumber>
+                        <RegDate>2016-02-18</RegDate>
+                    </Registration>
+                </Encumbrance>
+            </Encumbrances>
+            <Notes>Произведена перепланировка, технический паспорт от 02.03.2009 г.</Notes>
+        </Flat>
+    </Realty>
+    <CertificationDoc>
+        <cer:Organization>ФГИС ЕГРН</cer:Organization>
+        <cer:Date>2017-09-25</cer:Date>
+        <cer:Number>99/2017/29103652</cer:Number>
+    </CertificationDoc>
+    <CoordSystems>
+        <spa:CoordSystem Name="МСК-27 зона 3" CsId="ID0"/>
+    </CoordSystems>
+    <eDocument CodeType="112" Version="07" Scope="GKN">
+        <Sender Kod="00.0.4.195"
+                Name="ФГИС ЕГРН"
+                Region="99"
+                Date_Upload="2017-09-25"
+                Appointment="Государственный регистратор"
+        />
+        <Recipient Kod="00.0.4.111" Name="Колонтаева Наталья Владимировна"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="0"
+                         ExtractTypeCode="012000"
+                         ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+                         ExtractNumber="99/2017/29103652"
+                         ExtractDate="25.09.2017"
+                         RequeryNumber="80-15724649"
+                         RequeryDate="25.09.2017"
+                         ExtractCount="1"
+                         NoticeCount="0"
+                         RefuseCount="0"
+                         Registrator="ФГИС ЕГРН">
+            <ReceivName>Колонтаева Наталья Владимировна</ReceivName>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>0</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+                <DeptName>ФГИС ЕГРН</DeptName>
+                <ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости
+                </ExtractTitle>
+                <Content>На основании запроса от 25.09.2017 г., поступившего на рассмотрение 25.09.2017 г., сообщаем,
+                    что согласно записям Единого государственного реестра недвижимости:
+                </Content>
+            </HeadContent>
+            <ExtractObject>
+                <ObjectRight>
+                    <Right RightNumber="1">
+                        <Owner>
+                            <ID_Subject>17683852727</ID_Subject>
+                            <Organization>
+                                <Code_SP>007002000000</Code_SP>
+                                <Content>Общество с ограниченной ответственностью &quot;Универсам&quot;, ИНН:
+                                    2723113137
+                                </Content>
+                                <Name>Общество с ограниченной ответственностью &quot;Универсам&quot;</Name>
+                                <INN>2723113137</INN>
+                            </Organization>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>137053258127</ID_Record>
+                            <RegNumber>27-27/001-27/074/204/2015-7665/2</RegNumber>
+                            <Type>001001000000</Type>
+                            <Name>Собственность, № 27-27/001-27/074/204/2015-7665/2 от 16.12.2015</Name>
+                            <RegDate>16.12.2015</RegDate>
+                        </Registration>
+                        <Encumbrance>
+                            <ID_Record>137053264227</ID_Record>
+                            <RegNumber>27-27/001-27/002/204/2016-1293/2</RegNumber>
+                            <Type>022006000000</Type>
+                            <Name>Аренда</Name>
+                            <ShareText>весь объект
+                            </ShareText>
+                            <RegDate>18.02.2016</RegDate>
+                            <Duration>
+                                <Started>01.01.2016</Started>
+                                <Stopped>31.12.2018</Stopped>
+                                <Term>с 01.01.2016 по 31.12.2018</Term>
+                            </Duration>
+                            <Owner>
+                                <ID_Subject>19480009127</ID_Subject>
+                                <Organization>
+                                    <Code_SP>007002000000</Code_SP>
+                                    <Content>Общество с ограниченной ответственностью &quot;ЛААН&quot;, ИНН:
+                                        2723041186
+                                    </Content>
+                                    <Name>Общество с ограниченной ответственностью &quot;ЛААН&quot;</Name>
+                                    <INN>2723041186</INN>
+                                </Organization>
+                            </Owner>
+                            <DocFound>
+                                <ID_Document>137053263927</ID_Document>
+                                <Content>Договор аренды нежилых помещений oт 22.12.2015</Content>
+                                <Type_Document>010003004000</Type_Document>
+                                <Name>Договор аренды нежилых помещений</Name>
+                                <Number>б/н</Number>
+                                <Date>22.12.2015</Date>
+                            </DocFound>
+                        </Encumbrance>
+                    </Right>
+                    <NoShareHolding>не зарегистрировано</NoShareHolding>
+                </ObjectRight>
+                <RightAssert>данные отсутствуют</RightAssert>
+                <RightClaim>данные отсутствуют</RightClaim>
+                <RightAgainst>данные отсутствуют</RightAgainst>
+                <RightSteal>данные отсутствуют</RightSteal>
+                <WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+                <InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+                <InabilityRegZU></InabilityRegZU>
+            </ExtractObject>
+            <InfoENK/>
+            <InfoPIK/>
+            <FootContent>
+                <Recipient>Колонтаева Наталья Владимировна</Recipient>
+                <ExtractDate>25.09.2017</ExtractDate>
+                <Content></Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</KPOKS>

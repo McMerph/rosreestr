@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="ru.mcmerphy.rosreestr.controllers.layout.FlatExcerptControlsController" xmlns:fx="http://javafx.com/fxml">
+    <Button text="" onAction="#handleRemove">
+        <tooltip>
+            <Tooltip text="Удалить запись (Delete)"/>
+        </tooltip>
+    </Button>
+    <Button text="" onAction="#handleOpen">
+        <tooltip>
+            <Tooltip text="Открыть файл (O)"/>
+        </tooltip>
+    </Button>
+</VBox>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/OKS/07/Common.xsl"?>
+
+<KVOKS xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kvoks/3.0.1"
+       xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+       xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+       xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+       xmlns:param="urn://x-artefacts-rosreestr-ru/commons/complex-types/parameters-oks/2.0.1"
+       xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+>
+    <Realty>
+        <Building CadastralNumber="27:23:0050732:75" State="01"
+                  DateCreated="2012-06-28"
+        >
+            <CadastralBlocks>
+                <CadastralBlock>27:23:0050732</CadastralBlock>
+            </CadastralBlocks>
+            <ObjectType>002001002000</ObjectType>
+            <ParentCadastralNumbers>
+                <CadastralNumber>27:23:0050732:12</CadastralNumber>
+            </ParentCadastralNumbers>
+            <OldNumbers>
+                <num:OldNumber Type="01" Number="12118"/>
+            </OldNumbers>
+            <Name>Жилой дом</Name>
+            <AssignationBuilding>204003000000</AssignationBuilding>
+            <ElementsConstruct>
+                <param:Material Wall="061001001001"/>
+            </ElementsConstruct>
+            <ExploitationChar YearBuilt="1957"/>
+            <Floors Floors="3"/>
+            <Area>2881</Area>
+            <Address>
+                <adrs:OKATO>08401365000</adrs:OKATO>
+                <adrs:KLADR>27000001000040700</adrs:KLADR>
+                <adrs:Region>27</adrs:Region>
+                <adrs:City Name="Хабаровск" Type="г"/>
+                <adrs:UrbanDistrict Name="Индустриальный" Type="р-н"/>
+                <adrs:Street Name="Краснореченская" Type="ул"/>
+                <adrs:Level1 Type="д" Value="11"/>
+            </Address>
+            <CadastralCost Value="116444445.3" Unit="383"/>
+            <Flats>
+                <Flat CadastralNumber="27:23:0050732:327">
+                    <Area>58.8</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="33">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:323">
+                    <Area>59.4</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="9">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:322">
+                    <Area>59.5</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="7">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:301">
+                    <Area>59.3</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="6">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:324">
+                    <Area>57.2</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="23">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:300">
+                    <Area>56.8</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="5">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:306">
+                    <Area>75.5</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="14">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:311">
+                    <Area>59.9</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="19">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:312">
+                    <Area>55.6</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="20">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:309">
+                    <Area>55.2</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="17">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:316">
+                    <Area>54.3</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="26">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:303">
+                    <Area>87.8</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="10">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:325">
+                    <Area>62</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="24">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:317">
+                    <Area>55.7</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="27">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:302">
+                    <Area>57.2</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="8">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:328">
+                    <Area>100</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="12">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:304">
+                    <Area>76.9</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="11">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:314">
+                    <Area>60.2</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="22">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:326">
+                    <Area>55</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="31">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:321">
+                    <Area>58.1</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="30">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:305">
+                    <Area>85.9</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="13">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:313">
+                    <Area>59.3</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="21">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:295">
+                    <Area>184.6</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="I (9-19)">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:298">
+                    <Area>55.9</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="1" Type="01">
+                                <Position NumberOnPlan="">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:296">
+                    <Area>57.4</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="I (14-19)">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:294">
+                    <Area>408.1</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="Подвал" Type="04">
+                                <Position NumberOnPlan="-I(1-8)">
+                                </Position>
+                            </Level>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="I(1-11)">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:297">
+                    <Area>56.9</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="1">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:320">
+                    <Area>55</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="32">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:299">
+                    <Area>59.5</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="4">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:308">
+                    <Area>57.8</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="16">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:319">
+                    <Area>55.8</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="29">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:310">
+                    <Area>59.6</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="18">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:315">
+                    <Area>59.2</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="01" Type="01">
+                                <Position NumberOnPlan="25">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:307">
+                    <Area>99.3</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="03" Type="01">
+                                <Position NumberOnPlan="15">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+                <Flat CadastralNumber="27:23:0050732:318">
+                    <Area>58.7</Area>
+                    <PositionInObject>
+                        <Levels>
+                            <Level Number="02" Type="01">
+                                <Position NumberOnPlan="28">
+                                </Position>
+                            </Level>
+                        </Levels>
+                    </PositionInObject>
+                </Flat>
+            </Flats>
+        </Building>
+    </Realty>
+    <CertificationDoc>
+        <cer:Organization>ФГИС ЕГРН</cer:Organization>
+        <cer:Date>2017-09-25</cer:Date>
+        <cer:Number>99/2017/29105456</cer:Number>
+    </CertificationDoc>
+    <CoordSystems>
+        <spa:CoordSystem Name="МСК-27 зона 3" CsId="ID0"/>
+    </CoordSystems>
+    <eDocument CodeType="112" Version="07" Scope="GKN">
+        <Sender Kod="00.0.4.195"
+                Name="ФГИС ЕГРН"
+                Region="99"
+                Date_Upload="2017-09-25"
+                Appointment="Государственный регистратор"
+        />
+        <Recipient Kod="00.0.4.111" Name="Колонтаева Наталья Владимировна"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="0"
+                         ExtractTypeCode="012000"
+                         ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+                         ExtractNumber="99/2017/29105456"
+                         ExtractDate="25.09.2017"
+                         RequeryNumber="80-15727794"
+                         RequeryDate="25.09.2017"
+                         ExtractCount="0"
+                         NoticeCount="0"
+                         RefuseCount="0"
+                         Registrator="ФГИС ЕГРН">
+            <ReceivName>Колонтаева Наталья Владимировна</ReceivName>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>0</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+                <DeptName>ФГИС ЕГРН</DeptName>
+                <ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости
+                </ExtractTitle>
+                <Content>На основании запроса от 25.09.2017 г., поступившего на рассмотрение 25.09.2017 г., сообщаем,
+                    что согласно записям Единого государственного реестра недвижимости:
+                </Content>
+            </HeadContent>
+            <InfoENK/>
+            <InfoPIK/>
+            <FootContent>
+                <Recipient>Колонтаева Наталья Владимировна</Recipient>
+                <ExtractDate>25.09.2017</ExtractDate>
+                <Content></Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</KVOKS>
