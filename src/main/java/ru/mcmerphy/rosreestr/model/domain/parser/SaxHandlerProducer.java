@@ -4,10 +4,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 import ru.mcmerphy.rosreestr.model.domain.parser.handlers.tags.*;
-import ru.mcmerphy.rosreestr.model.domain.parser.handlers.tags.attributes.ApartmentHandler;
-import ru.mcmerphy.rosreestr.model.domain.parser.handlers.tags.attributes.BuildingHandler;
-import ru.mcmerphy.rosreestr.model.domain.parser.handlers.tags.attributes.LocalityHandler;
-import ru.mcmerphy.rosreestr.model.domain.parser.handlers.tags.attributes.StreetHandler;
+import ru.mcmerphy.rosreestr.model.domain.parser.handlers.tags.attributes.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +19,9 @@ public class SaxHandlerProducer {
     public SaxHandlerProducer(FlatParser parser) {
         tagHandlers.add(new KpoksHandler(parser));
         tagHandlers.add(new AreaHandler(parser));
-        tagHandlers.add(new AddressRegionHandler(parser));
+        tagHandlers.add(new RegionHandler(parser));
+        tagHandlers.add(new DistrictHandler(parser));
+        tagHandlers.add(new CityHandler(parser));
         tagHandlers.add(new LocalityHandler(parser));
         tagHandlers.add(new StreetHandler(parser));
         tagHandlers.add(new BuildingHandler(parser));

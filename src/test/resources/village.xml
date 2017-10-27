@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl"?>
+
+<KPOKS xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpoks/4.0.1"
+       xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+       xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+       xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+       xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+       xmlns:flat="urn://x-artefacts-rosreestr-ru/commons/complex-types/assignation-flat/1.0.1"
+>
+    <Realty>
+        <Flat CadastralNumber="27:17:0301301:838" State="01"
+              DateCreated="2012-06-28"
+        >
+            <CadastralBlock>27:17:0301301</CadastralBlock>
+            <ObjectType>002001003000</ObjectType>
+            <ParentCadastralNumbers>
+                <CadastralNumberOKS>27:17:0301301:264</CadastralNumberOKS>
+            </ParentCadastralNumbers>
+            <OldNumbers>
+                <num:OldNumber Type="01" Number="4"/>
+            </OldNumbers>
+            <Assignation>
+                <flat:AssignationCode>206002000000</flat:AssignationCode>
+                <flat:AssignationType>205001000000</flat:AssignationType>
+            </Assignation>
+            <Area>47.6</Area>
+            <Address>
+                <adrs:OKATO>08255000028</adrs:OKATO>
+                <adrs:KLADR>27018000025000800</adrs:KLADR>
+                <adrs:Region>27</adrs:Region>
+                <adrs:District Name="Хабаровский" Type="р-н"/>
+                <adrs:Locality Name="Калинка" Type="с"/>
+                <adrs:Street Name="Молодежная" Type="ул"/>
+                <adrs:Level1 Type="д" Value="1"/>
+                <adrs:Apartment Type="кв" Value="52"/>
+            </Address>
+            <PositionInObject>
+                <Levels>
+                    <Level Number="03" Type="01">
+                        <Position NumberOnPlan="52">
+                        </Position>
+                    </Level>
+                </Levels>
+            </PositionInObject>
+            <CadastralCost Value="920468.33" Unit="383"/>
+            <Rights>
+                <Right>
+                    <Name>Собственность</Name>
+                    <Type>001001000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Person>
+                                <FamilyName>Кобяков</FamilyName>
+                                <FirstName>Вячеслав</FirstName>
+                                <Patronymic>Юрьевич</Patronymic>
+                            </Person>
+                        </Owner>
+                    </Owners>
+                    <Registration>
+                        <RegNumber>27-27-01/066/2006-414</RegNumber>
+                        <RegDate>2006-09-20</RegDate>
+                    </Registration>
+                </Right>
+            </Rights>
+        </Flat>
+    </Realty>
+    <CertificationDoc>
+        <cer:Organization>ФГИС ЕГРН</cer:Organization>
+        <cer:Date>2017-10-26</cer:Date>
+        <cer:Number>99/2017/32686922</cer:Number>
+    </CertificationDoc>
+    <CoordSystems>
+        <spa:CoordSystem Name="МСК-27 зона 3" CsId="ID0"/>
+    </CoordSystems>
+    <eDocument CodeType="112" Version="07" Scope="GKN">
+        <Sender Kod="00.0.4.195"
+                Name="ФГИС ЕГРН"
+                Region="99"
+                Date_Upload="2017-10-26"
+                Appointment="Государственный регистратор"
+        />
+        <Recipient Kod="00.0.4.111" Name="Колонтаева Наталья Владимировна"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="0"
+                         ExtractTypeCode="012000"
+                         ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+                         ExtractNumber="99/2017/32686922"
+                         ExtractDate="26.10.2017"
+                         RequeryNumber="80-18741657"
+                         RequeryDate="26.10.2017"
+                         ExtractCount="1"
+                         NoticeCount="0"
+                         RefuseCount="0"
+                         Registrator="ФГИС ЕГРН">
+            <ReceivName>Колонтаева Наталья Владимировна</ReceivName>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>0</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+                <DeptName>ФГИС ЕГРН</DeptName>
+                <ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости
+                </ExtractTitle>
+                <Content>На основании запроса от 26.10.2017 г., поступившего на рассмотрение 26.10.2017 г., сообщаем,
+                    что согласно записям Единого государственного реестра недвижимости:
+                </Content>
+            </HeadContent>
+            <ExtractObject>
+                <ObjectRight>
+                    <Right RightNumber="1">
+                        <Owner>
+                            <ID_Subject>129660402327</ID_Subject>
+                            <Person>
+                                <Code_SP>007003000000</Code_SP>
+                                <Content>Кобяков Вячеслав Юрьевич</Content>
+                                <FIO>
+                                    <Surname>Кобяков</Surname>
+                                    <First>Вячеслав</First>
+                                    <Patronymic>Юрьевич</Patronymic>
+                                </FIO>
+                            </Person>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>129660402027</ID_Record>
+                            <RegNumber>27-27-01/066/2006-414</RegNumber>
+                            <Type>001001000000</Type>
+                            <Name>Собственность, № 27-27-01/066/2006-414 от 20.09.2006</Name>
+                            <RegDate>20.09.2006</RegDate>
+                        </Registration>
+                        <NoEncumbrance>не зарегистрировано</NoEncumbrance>
+                    </Right>
+                    <NoShareHolding>не зарегистрировано</NoShareHolding>
+                </ObjectRight>
+                <RightAssert>данные отсутствуют</RightAssert>
+                <RightClaim>данные отсутствуют</RightClaim>
+                <RightAgainst>данные отсутствуют</RightAgainst>
+                <RightSteal>данные отсутствуют</RightSteal>
+                <WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+                <InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+                <InabilityRegZU></InabilityRegZU>
+            </ExtractObject>
+            <InfoENK/>
+            <InfoPIK/>
+            <FootContent>
+                <Recipient>Колонтаева Наталья Владимировна</Recipient>
+                <ExtractDate>26.10.2017</ExtractDate>
+                <Content></Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</KPOKS>

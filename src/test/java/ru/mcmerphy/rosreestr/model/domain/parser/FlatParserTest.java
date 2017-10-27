@@ -24,6 +24,39 @@ public class FlatParserTest {
     private static final String NOT_FLAT_WITH_FLAT_TAG = "/not-flat-with-flat-tag.xml";
     private static final String RIGHT_NOT_FOUND = "/right-not-found.xml";
     private static final String PERSONS_OWNER_NOT_GOVERNANCE = "/person-owner-not-governance.xml";
+    private static final String VILLAGE = "/village.xml";
+
+    /**
+     * Test parsing xml file with village.
+     */
+    @Test
+    public void testParseFileWithVillage() throws FlatParserFailException {
+        URL xml = FlatParserTest.class.getResource(VILLAGE);
+        FlatParser flatParser = new FlatParser(new File(xml.getFile()));
+        flatParser.parse();
+        Flat parsedFlat = flatParser.getFlat();
+        assertTrue(parsedFlat.isConsistent());
+
+        Flat flat = new Flat();
+        flat.setTotalArea(new BigDecimal("47.6"));
+
+        Right right = new Right();
+        right.setOwner("Кобяков Вячеслав Юрьевич");
+        right.setRegistration("Собственность, № 27-27-01/066/2006-414 от 20.09.2006");
+        flat.getRights().add(right);
+
+        Address address = new Address();
+        address.setRegion("27");
+        address.setDistrict(new District("р-н", "Хабаровский"));
+        address.setLocality(new Locality("с", "Калинка"));
+        address.setStreet(new Street("ул", "Молодежная"));
+        address.setBuilding(new Building("д", "1"));
+        address.setApartment(new Apartment("кв", "52"));
+
+        flat.setAddress(address);
+
+        assertThat(parsedFlat, is(flat));
+    }
 
     /**
      * Test parsing xml file with person owner, not governance.

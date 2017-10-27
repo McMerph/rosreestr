@@ -15,7 +15,6 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import static ru.mcmerphy.rosreestr.controllers.util.Comparators.FLAT_COMPARATOR_BY_APARTMENT;
-import static ru.mcmerphy.rosreestr.controllers.util.Formatter.format;
 
 /**
  * Represents marshaller from flats to documents.
@@ -48,11 +47,7 @@ public class FlatsMarshaller {
 
     private Map<String, List<Flat>> getFlatsByBuildings(Collection<Flat> flats) {
         Map<String, List<Flat>> flatsByBuildings = flats.stream()
-                .collect(Collectors.groupingBy(flat ->
-                        format(" ",
-                                flat.getAddress().getStreet().getRepresentation(),
-                                flat.getAddress().getBuilding().getRepresentation()
-                        )));
+                .collect(Collectors.groupingBy(flat -> flat.getAddress().getBuildingRepresentation()));
         for (String building : flatsByBuildings.keySet()) {
             flatsByBuildings.get(building).sort(FLAT_COMPARATOR_BY_APARTMENT);
         }

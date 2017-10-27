@@ -20,6 +20,7 @@ public class FlatsDocumentProducer {
         XWPFDocument document = new XWPFDocument();
         insertHeader(document, building);
         new FlatsTableProducer().produce(document, flats);
+//        TODO Add TotalAreaSum footer
 
         return document;
     }

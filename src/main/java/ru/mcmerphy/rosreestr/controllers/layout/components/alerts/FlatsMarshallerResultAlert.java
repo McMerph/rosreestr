@@ -23,6 +23,7 @@ public class FlatsMarshallerResultAlert extends Alert {
 
     public FlatsMarshallerResultAlert(FlatsMarshallerResult flatsMarshallerResult) {
         super(flatsMarshallerResult.hasFails() ? AlertType.ERROR : AlertType.INFORMATION);
+        getDialogPane().setMinWidth(1000);
         setHeaderText("Результаты преобразования");
         setTitle("Результаты преобразования");
 

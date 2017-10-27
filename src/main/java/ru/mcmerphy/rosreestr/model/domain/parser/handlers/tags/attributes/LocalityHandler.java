@@ -14,7 +14,7 @@ public class LocalityHandler extends AttributesHandler {
 
     @Override
     protected String[] getTagNames() {
-        return new String[]{"Flat", "Address", "adrs:City"};
+        return new String[]{"Flat", "Address", "adrs:Locality"};
     }
 
     @Override

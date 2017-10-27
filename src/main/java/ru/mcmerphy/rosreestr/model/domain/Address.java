@@ -14,10 +14,28 @@ import static ru.mcmerphy.rosreestr.controllers.util.Formatter.format;
 public class Address {
 
     private String region;
+
+    /**
+     * Optional district.
+     */
+    private District district = new District();
+
     private Locality locality = new Locality();
     private Street street = new Street();
     private Building building = new Building();
     private Apartment apartment = new Apartment();
+
+    /**
+     * @return user-friendly building representation.
+     */
+    public String getBuildingRepresentation() {
+        return format(" ",
+                getDistrictRepresentation(),
+                locality.getRepresentation(),
+                street.getRepresentation(),
+                building.getRepresentation()
+        );
+    }
 
     /**
      * @return user-friendly representation.
@@ -27,7 +45,8 @@ public class Address {
             return NO_CONTENT;
         } else {
             return String.join("\n",
-                    format(" ", formatRegion(), locality.getRepresentation()),
+                    format(" ", getDistrictRepresentation()),
+                    locality.getRepresentation(),
                     format(" ",
                             street.getRepresentation(),
                             building.getRepresentation(),
@@ -73,6 +92,14 @@ public class Address {
         this.region = region;
     }
 
+    public District getDistrict() {
+        return district;
+    }
+
+    public void setDistrict(District district) {
+        this.district = district;
+    }
+
     public Locality getLocality() {
         return locality;
     }
@@ -113,6 +140,8 @@ public class Address {
         Address address = (Address) o;
 
         if (region != null ? !region.equals(address.region) : address.region != null) return false;
+        if (district != null ? !district.equals(address.district) : address.district != null)
+            return false;
         if (locality != null ? !locality.equals(address.locality) : address.locality != null) return false;
         if (street != null ? !street.equals(address.street) : address.street != null) return false;
         if (building != null ? !building.equals(address.building) : address.building != null) return false;
@@ -122,6 +151,7 @@ public class Address {
     @Override
     public int hashCode() {
         int result = region != null ? region.hashCode() : 0;
+        result = 31 * result + (district != null ? district.hashCode() : 0);
         result = 31 * result + (locality != null ? locality.hashCode() : 0);
         result = 31 * result + (street != null ? street.hashCode() : 0);
         result = 31 * result + (building != null ? building.hashCode() : 0);
@@ -140,12 +170,18 @@ public class Address {
                 && apartment.isEmpty();
     }
 
-    private String formatRegion() {
+    private String getDistrictRepresentation() {
+        String representation;
         if (Objects.isNull(region)) {
-            return NO_CONTENT;
+            representation = NO_CONTENT;
         } else {
-            return region.equals("27") ? "Хабаровский край" : region + " регион";
+            representation = region.equals("27") ? "Хабаровский край" : region + " регион";
         }
+
+        if (!district.isEmpty()) {
+            representation = String.join(" ", representation, district.getRepresentation());
+        }
+        return representation;
     }
 
 }
