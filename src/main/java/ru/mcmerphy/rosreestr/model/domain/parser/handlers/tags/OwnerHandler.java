@@ -15,7 +15,7 @@ public abstract class OwnerHandler extends TagHandler {
     protected void handleEndElement(String tagName) {
         List<Right> rights = getFlat().getRights();
         Right right = rights.get(rights.size() - 1);
-        right.setOwner(getCleanParsedCharacters());
+        right.getOwners().add(getCleanParsedCharacters());
     }
 
 }

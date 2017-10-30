@@ -34,7 +34,7 @@ public class RightsTableCell extends StyledTableCell<FlatExcerpt, ObservableList
             for (int i = 0; i < rights.size(); i++) {
                 Right right = rights.get(i);
 
-                Text ownerText = getText(right.getOwnerRepresentation(), OWNER_NUMERATOR);
+                Text ownerText = getText(String.join("\n\n", right.getOwnersRepresentation()), OWNER_NUMERATOR);
                 ownerText.setTextAlignment(TextAlignment.CENTER);
                 grid.add(ownerText, 0, i);
 

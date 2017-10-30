@@ -25,6 +25,40 @@ public class FlatParserTest {
     private static final String RIGHT_NOT_FOUND = "/right-not-found.xml";
     private static final String PERSONS_OWNER_NOT_GOVERNANCE = "/person-owner-not-governance.xml";
     private static final String VILLAGE = "/village.xml";
+    private static final String COOPERATIVE_OWN = "/cooperative-own.xml";
+
+    /**
+     * Test parsing xml file with cooperative own.
+     */
+    @Test
+    public void testParseFileWithCooperativeOwn() throws FlatParserFailException {
+        URL xml = FlatParserTest.class.getResource(COOPERATIVE_OWN);
+        FlatParser flatParser = new FlatParser(new File(xml.getFile()));
+        flatParser.parse();
+        Flat parsedFlat = flatParser.getFlat();
+        assertTrue(parsedFlat.isConsistent());
+
+        Flat flat = new Flat();
+        flat.setTotalArea(new BigDecimal("49.1"));
+
+        Right right = new Right();
+        right.getOwners().add("Плясов Константин Константинович");
+        right.getOwners().add("Вернигора Александра Олеговна");
+        right.setRegistration("Совместная собственность, № 27-27/001-27/001/217/2016-2896/2 от 30.08.2016");
+        flat.getRights().add(right);
+
+        Address address = new Address();
+        address.setRegion("27");
+        address.setDistrict(new District("р-н", "Хабаровский"));
+        address.setLocality(new Locality("с", "Калинка"));
+        address.setStreet(new Street("ул", "Молодежная"));
+        address.setBuilding(new Building("д", "6"));
+        address.setApartment(new Apartment("кв", "41"));
+
+        flat.setAddress(address);
+
+        assertThat(parsedFlat, is(flat));
+    }
 
     /**
      * Test parsing xml file with village.
@@ -41,7 +75,7 @@ public class FlatParserTest {
         flat.setTotalArea(new BigDecimal("47.6"));
 
         Right right = new Right();
-        right.setOwner("Кобяков Вячеслав Юрьевич");
+        right.getOwners().add("Кобяков Вячеслав Юрьевич");
         right.setRegistration("Собственность, № 27-27-01/066/2006-414 от 20.09.2006");
         flat.getRights().add(right);
 
@@ -73,7 +107,7 @@ public class FlatParserTest {
         flat.setTotalArea(new BigDecimal("61"));
 
         Right right = new Right();
-        right.setOwner("Рыбаков Сергей Валерьевич");
+        right.getOwners().add("Рыбаков Сергей Валерьевич");
         right.setRegistration("Собственность, № 27-27-01/007/2014-943 от 26.02.2014");
         flat.getRights().add(right);
 
@@ -104,10 +138,10 @@ public class FlatParserTest {
         flat.setTotalArea(new BigDecimal("43"));
 
         Right right1 = new Right();
-        right1.setOwner("Глушицкая Ольга Викторовна");
+        right1.getOwners().add("Глушицкая Ольга Викторовна");
         right1.setRegistration("Долевая собственность, № 27-01/11-57/2004-879 от 06.10.2004, 1/2");
         Right right2 = new Right();
-        right2.setOwner("Аистова Зинаида Николаевна");
+        right2.getOwners().add("Аистова Зинаида Николаевна");
         right2.setRegistration("Долевая собственность, № 27-01/11-57/2004-879 от 06.10.2004, 1/2");
         flat.getRights().addAll(Arrays.asList(right1, right2));
 
@@ -138,10 +172,10 @@ public class FlatParserTest {
         flat.setTotalArea(new BigDecimal("83.1"));
 
         Right right1 = new Right();
-        right1.setOwner("Городской округ \"Город Хабаровск\"");
+        right1.getOwners().add("Городской округ \"Город Хабаровск\"");
         right1.setRegistration("Долевая собственность, № 27-27-01/004/2009-346 от 11.03.2009, 64/100");
         Right right2 = new Right();
-        right2.setOwner("Мартинсон Даяна Эдуардовна");
+        right2.getOwners().add("Мартинсон Даяна Эдуардовна");
         right2.setRegistration("Долевая собственность, № 27-27-01/070/2009-626 от 30.07.2009, 36/100");
         flat.getRights().addAll(Arrays.asList(right1, right2));
 
@@ -172,7 +206,7 @@ public class FlatParserTest {
         flat.setTotalArea(new BigDecimal("718"));
 
         Right right1 = new Right();
-        right1.setOwner("Общество с ограниченной ответственностью \"Универсам\", ИНН: 2723113137");
+        right1.getOwners().add("Общество с ограниченной ответственностью \"Универсам\", ИНН: 2723113137");
         right1.setRegistration("Собственность, № 27-27/001-27/074/204/2015-7665/2 от 16.12.2015");
         flat.getRights().add(right1);
 

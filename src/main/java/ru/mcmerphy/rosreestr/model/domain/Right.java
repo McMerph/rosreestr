@@ -6,13 +6,13 @@ import java.util.Objects;
 
 /**
  * Represents {@link Flat} right.
- * Holds owner and registration.
+ * Holds owners and registration.
  */
 public class Right {
 
     private boolean noOwner = false;
     private boolean noRegistration = false;
-    private String owner;
+    private List<String> owners = new ArrayList<>();
     private String registration;
 
     /**
@@ -20,7 +20,7 @@ public class Right {
      */
     public List<String> getInconsistency() {
         List<String> inconsistency = new ArrayList<>();
-        if (Objects.isNull(owner) && !noOwner) {
+        if (owners.isEmpty() && !noOwner) {
             inconsistency.add("Правообладатель не задан");
         }
         if (Objects.isNull(registration) && !noRegistration) {
@@ -31,18 +31,19 @@ public class Right {
     }
 
     /**
-     * @return user-friendly owner representation.
+     * @return user-friendly owners representation.
      */
-    public String getOwnerRepresentation() {
-        String representation = "Правообладатель не задан";
+    public List<String> getOwnersRepresentation() {
+        List<String> ownersRepresentation = new ArrayList<>();
         if (noOwner) {
-            representation = "Данные о правообладателе отсутствуют";
-        }
-        if (Objects.nonNull(owner)) {
-            representation = getOwner();
+            ownersRepresentation.add("Данные о правообладателе отсутствуют");
+        } else if (!owners.isEmpty()) {
+            ownersRepresentation.addAll(owners);
+        } else {
+            ownersRepresentation.add("Правообладатель не задан");
         }
 
-        return representation;
+        return ownersRepresentation;
     }
 
     /**
@@ -76,12 +77,12 @@ public class Right {
         this.noRegistration = true;
     }
 
-    public String getOwner() {
-        return owner;
+    public List<String> getOwners() {
+        return owners;
     }
 
-    public void setOwner(String owner) {
-        this.owner = owner;
+    public void setOwners(List<String> owners) {
+        this.owners = owners;
     }
 
     public String getRegistration() {
@@ -101,7 +102,7 @@ public class Right {
 
         if (noOwner != right.noOwner) return false;
         if (noRegistration != right.noRegistration) return false;
-        if (owner != null ? !owner.equals(right.owner) : right.owner != null) return false;
+        if (owners != null ? !owners.equals(right.owners) : right.owners != null) return false;
         return registration != null ? registration.equals(right.registration) : right.registration == null;
     }
 
@@ -109,7 +110,7 @@ public class Right {
     public int hashCode() {
         int result = (noOwner ? 1 : 0);
         result = 31 * result + (noRegistration ? 1 : 0);
-        result = 31 * result + (owner != null ? owner.hashCode() : 0);
+        result = 31 * result + (owners != null ? owners.hashCode() : 0);
         result = 31 * result + (registration != null ? registration.hashCode() : 0);
         return result;
     }

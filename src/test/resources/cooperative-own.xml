@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl"?>
+
+<KPOKS xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpoks/4.0.1"
+       xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+       xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+       xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+       xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+       xmlns:flat="urn://x-artefacts-rosreestr-ru/commons/complex-types/assignation-flat/1.0.1"
+>
+    <Realty>
+        <Flat CadastralNumber="27:17:0301301:395" State="01"
+              DateCreated="2012-06-28"
+        >
+            <CadastralBlock>27:17:0301301</CadastralBlock>
+            <ObjectType>002001003000</ObjectType>
+            <ParentCadastralNumbers>
+                <CadastralNumberOKS>27:17:0301301:228</CadastralNumberOKS>
+            </ParentCadastralNumbers>
+            <OldNumbers>
+                <num:OldNumber Type="01" Number="1"/>
+            </OldNumbers>
+            <Assignation>
+                <flat:AssignationCode>206002000000</flat:AssignationCode>
+                <flat:AssignationType>205001000000</flat:AssignationType>
+            </Assignation>
+            <Area>49.1</Area>
+            <Address>
+                <adrs:OKATO>08255000028</adrs:OKATO>
+                <adrs:KLADR>27018000025000800</adrs:KLADR>
+                <adrs:Region>27</adrs:Region>
+                <adrs:District Name="Хабаровский" Type="р-н"/>
+                <adrs:Locality Name="Калинка" Type="с"/>
+                <adrs:Street Name="Молодежная" Type="ул"/>
+                <adrs:Level1 Type="д" Value="6"/>
+                <adrs:Apartment Type="кв" Value="41"/>
+            </Address>
+            <PositionInObject>
+                <Levels>
+                    <Level Number="04" Type="01">
+                        <Position NumberOnPlan="41">
+                        </Position>
+                    </Level>
+                </Levels>
+            </PositionInObject>
+            <CadastralCost Value="949474.69" Unit="383"/>
+            <Rights>
+                <Right>
+                    <Name>Общая совместная собственность</Name>
+                    <Type>001003000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Person>
+                                <FamilyName>Плясов</FamilyName>
+                                <FirstName>Константин</FirstName>
+                                <Patronymic>Константинович</Patronymic>
+                            </Person>
+                        </Owner>
+                        <Owner>
+                            <Person>
+                                <FamilyName>Вернигора</FamilyName>
+                                <FirstName>Александра</FirstName>
+                                <Patronymic>Олеговна</Patronymic>
+                            </Person>
+                        </Owner>
+                    </Owners>
+                    <Registration>
+                        <RegNumber>27-27/001-27/001/217/2016-2896/2</RegNumber>
+                        <RegDate>2016-08-30</RegDate>
+                    </Registration>
+                </Right>
+            </Rights>
+            <Encumbrances>
+                <Encumbrance>
+                    <Type>022008000000</Type>
+                    <OwnersRestrictionInFavorem>
+                        <OwnerRestrictionInFavorem>
+                            <Organization>
+                                <Name>Публичное акционерное общество &quot;Дальневосточный банк&quot;</Name>
+                            </Organization>
+                        </OwnerRestrictionInFavorem>
+                    </OwnersRestrictionInFavorem>
+                    <Registration>
+                        <RegNumber>27-27/001-27/001/217/2016-2898/1</RegNumber>
+                        <RegDate>2016-08-30</RegDate>
+                    </Registration>
+                </Encumbrance>
+            </Encumbrances>
+        </Flat>
+    </Realty>
+    <CertificationDoc>
+        <cer:Organization>ФГИС ЕГРН</cer:Organization>
+        <cer:Date>2017-10-26</cer:Date>
+        <cer:Number>99/2017/32687537</cer:Number>
+    </CertificationDoc>
+    <CoordSystems>
+        <spa:CoordSystem Name="МСК-27 зона 3" CsId="ID0"/>
+    </CoordSystems>
+    <eDocument CodeType="112" Version="07" Scope="GKN">
+        <Sender Kod="00.0.4.195"
+                Name="ФГИС ЕГРН"
+                Region="99"
+                Date_Upload="2017-10-26"
+                Appointment="Государственный регистратор"
+        />
+        <Recipient Kod="00.0.4.111" Name="Колонтаева Наталья Владимировна"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="0"
+                         ExtractTypeCode="012000"
+                         ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+                         ExtractNumber="99/2017/32687537"
+                         ExtractDate="26.10.2017"
+                         RequeryNumber="80-18742315"
+                         RequeryDate="26.10.2017"
+                         ExtractCount="1"
+                         NoticeCount="0"
+                         RefuseCount="0"
+                         Registrator="ФГИС ЕГРН">
+            <ReceivName>Колонтаева Наталья Владимировна</ReceivName>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>0</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+                <DeptName>ФГИС ЕГРН</DeptName>
+                <ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости
+                </ExtractTitle>
+                <Content>На основании запроса от 26.10.2017 г., поступившего на рассмотрение 26.10.2017 г., сообщаем,
+                    что согласно записям Единого государственного реестра недвижимости:
+                </Content>
+            </HeadContent>
+            <ExtractObject>
+                <ObjectRight>
+                    <Right RightNumber="1">
+                        <Owner>
+                            <ID_Subject>103077697527</ID_Subject>
+                            <Person>
+                                <Code_SP>007003000000</Code_SP>
+                                <Content>Плясов Константин Константинович</Content>
+                                <FIO>
+                                    <Surname>Плясов</Surname>
+                                    <First>Константин</First>
+                                    <Patronymic>Константинович</Patronymic>
+                                </FIO>
+                            </Person>
+                        </Owner>
+                        <Owner>
+                            <ID_Subject>129811638427</ID_Subject>
+                            <Person>
+                                <Code_SP>007003000000</Code_SP>
+                                <Content>Вернигора Александра Олеговна</Content>
+                                <FIO>
+                                    <Surname>Вернигора</Surname>
+                                    <First>Александра</First>
+                                    <Patronymic>Олеговна</Patronymic>
+                                </FIO>
+                            </Person>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>129811637827</ID_Record>
+                            <RegNumber>27-27/001-27/001/217/2016-2896/2</RegNumber>
+                            <Type>001003000000</Type>
+                            <Name>Совместная собственность, № 27-27/001-27/001/217/2016-2896/2 от 30.08.2016</Name>
+                            <RegDate>30.08.2016</RegDate>
+                        </Registration>
+                        <Encumbrance>
+                            <ID_Record>129811642927</ID_Record>
+                            <RegNumber>27-27/001-27/001/217/2016-2898/1</RegNumber>
+                            <Type>022008000000</Type>
+                            <Name>Залог в силу закона</Name>
+                            <ShareText>весь объект
+                            </ShareText>
+                            <RegDate>30.08.2016</RegDate>
+                            <Duration>
+                                <Started>30.08.2016</Started>
+                                <Term>с 30.08.2016 на 180 месяцев</Term>
+                            </Duration>
+                            <Owner>
+                                <ID_Subject>121038073627</ID_Subject>
+                                <Organization>
+                                    <Code_SP>007002000000</Code_SP>
+                                    <Content>Публичное акционерное общество &quot;Дальневосточный банк&quot;, ИНН:
+                                        2540016961
+                                    </Content>
+                                    <Name>Публичное акционерное общество &quot;Дальневосточный банк&quot;</Name>
+                                    <INN>2540016961</INN>
+                                </Organization>
+                            </Owner>
+                            <DocFound>
+                                <ID_Document>129811637227</ID_Document>
+                                <Content>Договор купли-продажи квартиры oт 25.08.2016</Content>
+                                <Type_Document>010003007000</Type_Document>
+                                <Name>Договор купли-продажи квартиры</Name>
+                                <Number>б/н</Number>
+                                <Date>25.08.2016</Date>
+                            </DocFound>
+                        </Encumbrance>
+                    </Right>
+                    <NoShareHolding>не зарегистрировано</NoShareHolding>
+                </ObjectRight>
+                <RightAssert>данные отсутствуют</RightAssert>
+                <RightClaim>данные отсутствуют</RightClaim>
+                <RightAgainst>данные отсутствуют</RightAgainst>
+                <RightSteal>данные отсутствуют</RightSteal>
+                <WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+                <InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+                <InabilityRegZU></InabilityRegZU>
+            </ExtractObject>
+            <InfoENK/>
+            <InfoPIK/>
+            <FootContent>
+                <Recipient>Колонтаева Наталья Владимировна</Recipient>
+                <ExtractDate>26.10.2017</ExtractDate>
+                <Content></Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</KPOKS>

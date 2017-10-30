@@ -16,8 +16,10 @@ public class FlatRightRowFormatter extends TableRowFormatter {
 
     public FlatRightRowFormatter(Flat flat, Right right) {
         Apartment apartment = flat.getAddress().getApartment();
+        List<String> ownersRepresentation = right.getOwnersRepresentation();
+
         cellFormatters.add(new CellFormatter(apartment.getValue()).setCentered());
-        cellFormatters.add(new CellFormatter(right.getOwnerRepresentation()));
+        cellFormatters.add(new CellFormatter(ownersRepresentation.toArray(new String[0])));
         cellFormatters.add(new CellFormatter(right.getRegistrationRepresentation()));
         cellFormatters.add(new CellFormatter(Formatter.format(flat.getTotalArea())).setCentered());
 
